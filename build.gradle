@@ -1,0 +1,13 @@
+plugins {
+    id "application"
+}
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile "org.slf4j:slf4j-api:1.7.26"
+	runtime "ch.qos.logback:logback-classic:1.2.3"
+}
+
+mainClassName = "se.kilathaar.prototype.socket.Server"
