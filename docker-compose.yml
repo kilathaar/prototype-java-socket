@@ -4,3 +4,5 @@ services:
   server:
     container_name: "server"
     image: "kilathaar/server:latest"
+    ports:
+      - "56789:56789"
